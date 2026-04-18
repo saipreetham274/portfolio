@@ -16,4 +16,4 @@ const interval = setInterval(function(){
 if(index>fullText.length){
     clearInterval(interval)
 }
-},100)
+},70)

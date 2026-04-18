@@ -7,3 +7,13 @@ else{
     document.getElementById("theme-toggle").textContent="Light mode"
 }
 })
+const fullText = "Aspiring full stack developer from Bengaluru"
+let index = 0
+const interval = setInterval(function(){
+    document.getElementById("subtitle").textContent = fullText.substring(0,index)
+    index++
+
+if(index>fullText.length){
+    clearInterval(interval)
+}
+},100)

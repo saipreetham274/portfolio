@@ -171,3 +171,33 @@ h2 {
   nav ul { gap: 1rem; }
   section { padding: 3rem 1.2rem; }
 }
+#theme-toggle {
+  background: transparent;
+  color: #e0e0e0;
+  border: 1px solid #7f77dd;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+#theme-toggle:hover {
+  background: #7f77dd;
+  color: white;
+}
+
+body.light {
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+body.light nav {
+  background: #f1f1f1;
+}
+
+body.light .skill-card,
+body.light .project-card {
+  background: #f9f9f9;
+  border-color: #dddddd;
+}
